@@ -1,0 +1,11 @@
+<service>
+  <id>WebcashboxNginxPHP</id>
+  <name>WebcashboxNginxPHP</name>
+  <description>Webcashbox nging php on port 9123</description>
+  <workingdirectory>c:\www\nginx\modules\php</workingdirectory>
+  <env name="PATH" value="%PATH%;c:\www\nginx\modules\php" />
+  <executable>c:\www\nginx\modules\php\php-cgi.exe</executable>
+  <arguments>-b 127.0.0.1:9123</arguments>
+  <log mode="roll" />
+  <onfailure action="restart" />
+</service>

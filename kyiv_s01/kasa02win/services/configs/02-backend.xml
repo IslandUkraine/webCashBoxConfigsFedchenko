@@ -1,0 +1,9 @@
+<service>
+  <id>WebcashboxBackend</id>
+  <name>WebcashboxBackend</name>
+  <description>Webcashbox Backend on port 7901</description>
+  <executable>C:\Program Files\nodejs\node.exe</executable>
+  <arguments>"C:\www\webCashBox\backend\app.js"</arguments>
+  <log mode="roll" />
+  <onfailure action="restart" />
+</service>

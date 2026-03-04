@@ -1,0 +1,9 @@
+<service>
+  <id>WebcashboxFrontendNginx</id>
+  <name>WebcashboxFrontendNginx</name>
+  <description>Webcashbox frontend nginx on port 7900</description>
+  <executable>C:\www\nginx\nginx.exe</executable>
+  <arguments></arguments>
+  <log mode="roll" />
+  <onfailure action="restart" />
+</service>
